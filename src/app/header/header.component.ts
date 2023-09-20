@@ -1,7 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { ModalService } from 'src/app/modal.service';
 import { BsModalRef } from 'ngx-bootstrap/modal';
 import { SignupModalService } from '../signup-modal.service';
+import { productName } from '../data-type';
+import { ProductService } from '../services/product.service';
 
 @Component({
   selector: 'app-header',
@@ -9,8 +11,23 @@ import { SignupModalService } from '../signup-modal.service';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+  constructor(private modalService: ModalService, private signupModalService: SignupModalService, private product:ProductService) {}
+  
+  housingLocationList: productName[] = [];
+  housingService: ProductService = inject(ProductService);
+  filteredLocationList: productName[] = [];
+  
   bsModalRef: BsModalRef | any;
-  constructor(private modalService: ModalService, private signupModalService: SignupModalService) {}
+
+  filterResults(text: string) {
+    if (!text) {
+      this.filteredLocationList = this.housingLocationList;
+    }
+
+    this.filteredLocationList = this.housingLocationList.filter(
+      housingLocation => housingLocation?.name.toLowerCase().includes(text.toLowerCase())
+    );
+  }
 
   openModal() {
     this.modalService.showModal();
