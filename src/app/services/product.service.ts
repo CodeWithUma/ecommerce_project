@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { productName } from '../data-type';
+import { product, productName } from '../data-type';
 
 @Injectable({
   providedIn: 'root',
@@ -99,7 +99,7 @@ export class ProductService {
     }
   ];
 
-  getAllHousingLocations(): productName[] {
-    return this.housingLocationList;
+  trendyProducts() {
+    return this.http.get<product[]>('http://localhost:3000/products?_limit=8');
   }
 }

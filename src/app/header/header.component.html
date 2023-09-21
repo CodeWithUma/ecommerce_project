@@ -7,18 +7,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link disabled bi bi-badge-ad" aria-disabled="true" routerLink=""> Seller</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link active bi bi-house" aria-current="page" routerLink=""> Home</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link bi bi-bag-check" routerLink=""> Orders</a>
-                </li>
-                <li class="nav-item">
+                </li> -->
+                <!-- <li class="nav-item">
                     <a class="nav-link bi bi-cart" routerLink=""> Cart</a>
-                </li>
+                </li> -->
             </ul>
             <div class="d-flex mx-2 flex-column mb-2 mt-2">
                 <button class="btn btn-success me-2 bi bi-box-arrow-in-right" data-toggle="modal"
@@ -28,12 +28,11 @@
                 <button class="btn btn-warning me-2 bi bi-pencil-square" data-toggle="modal" data-target="#signupModal"
                     (click)="openModal1()"> SignUp</button>
             </div>
-            <form class="d-flex flex-row" role="search">
-                <input style="color: white;" class="form-control me-2" type="search" placeholder="Search"
+            <!-- <form class="d-flex flex-row" role="search">
+                <input style="color: white;" class="form-control me-2" type="search" list="datalistOptions" placeholder="Search"
                     aria-label="Search" #filter>
-                <button style="color: white;" class="btn btn-outline-success bi bi-search" type="submit"
-                    (click)="filterResults(filter.value)"></button>
-            </form>
+                <button style="color: white;" class="btn btn-outline-success bi bi-search" type="submit"></button>
+            </form>             -->
         </div>
     </div>
 </nav>

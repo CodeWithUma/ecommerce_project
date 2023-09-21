@@ -2,20 +2,9 @@
     "products": 
     [
         {
+            "name": "Smartphones",
             "image": "./assets/images/ear-buds.jpg",
             "id": 1
-        },
-        {
-            "image": "./assets/images/fridge.jpg",
-            "id": 2
-        },
-        {
-            "image": "./assets/images/iphone.jpg",
-            "id": 3
-        },
-        {
-            "image": "./assets/images/laptop.jpg",
-            "id": 4
         }
     ]
 }

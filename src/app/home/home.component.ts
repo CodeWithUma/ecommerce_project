@@ -1,6 +1,6 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { ProductService } from '../services/product.service';
-import { productName } from '../data-type';
+import { product } from '../data-type';
 
 @Component({
   selector: 'app-home',
@@ -9,6 +9,11 @@ import { productName } from '../data-type';
 })
 export class HomeComponent implements OnInit {
   constructor(private product:ProductService) {}
+  trendyProducts:undefined | product[];
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.product.trendyProducts().subscribe((data)=>{
+      this.trendyProducts=data;
+    })
+  }
 }

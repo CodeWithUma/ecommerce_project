@@ -19,16 +19,6 @@ export class HeaderComponent {
   
   bsModalRef: BsModalRef | any;
 
-  filterResults(text: string) {
-    if (!text) {
-      this.filteredLocationList = this.housingLocationList;
-    }
-
-    this.filteredLocationList = this.housingLocationList.filter(
-      housingLocation => housingLocation?.name.toLowerCase().includes(text.toLowerCase())
-    );
-  }
-
   openModal() {
     this.modalService.showModal();
   }
