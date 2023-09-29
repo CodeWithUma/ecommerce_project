@@ -12,7 +12,7 @@ export class HomeService {
     {
       id: 0,
       name: 'Laptop',
-      photo: `//assets/images/laptop(1).png`,
+      photo: `./assets/images/laptop(1).png`,
       link:{
         text: "More...",
         url: "/laptop"
@@ -21,7 +21,7 @@ export class HomeService {
     {
       id: 1,
       name: 'Mouse',
-      photo: `//assets/images/mouse.png`,
+      photo: `./assets/images/mouse.png`,
       link:{
         text: "More...",
         url: "/mouse"
@@ -30,7 +30,7 @@ export class HomeService {
     {
       id: 2,
       name: 'Printer',
-      photo: `//assets/images/printer.png`,
+      photo: `./assets/images/printer.png`,
       link:{
         text: "More...",
         url: "/printer"
@@ -39,7 +39,7 @@ export class HomeService {
     {
       id: 3,
       name: 'Monitor',
-      photo: `//assets/images/monitor.png`,
+      photo: `./assets/images/monitor.png`,
       link:{
         text: "More...",
         url: "/monitor"
@@ -48,7 +48,7 @@ export class HomeService {
     {
       id: 4,
       name: 'AC (Air Conditioner)',
-      photo: `//assets/images/ac.png`,
+      photo: `./assets/images/ac.png`,
       link:{
         text: "More...",
         url: "/air-cond"
@@ -57,7 +57,7 @@ export class HomeService {
     {
       id: 5,
       name: 'Refridgerator',
-      photo: `//assets/images/double-door-fridge.png`,
+      photo: `./assets/images/double-door-fridge.png`,
       link:{
         text: "More...",
         url: "/refridgerator"
@@ -66,7 +66,7 @@ export class HomeService {
     {
       id: 6,
       name: 'TV (Television)',
-      photo: `//assets/images/tv.png`,
+      photo: `./assets/images/tv.png`,
       link:{
         text: "More...",
         url: "/television"
@@ -75,7 +75,7 @@ export class HomeService {
     {
       id: 7,
       name: 'Washing Machine',
-      photo: `//assets/images/washing-machine.png`,
+      photo: `./assets/images/washing-machine.png`,
       link:{
         text: "More...",
         url: "/washing-machine"
