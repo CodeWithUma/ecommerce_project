@@ -13,7 +13,6 @@ import { InterestBasedAddsComponent } from './interest-based-adds/interest-based
 import { ModalContentComponent } from './modal-content/modal-content.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { SignupModalContentComponent } from './signup-modal-content/signup-modal-content.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RefridgeratorComponent } from './refridgerator/refridgerator.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LaptopComponent } from './laptop/laptop.component';
@@ -37,12 +36,29 @@ import { WWatchesComponent } from './w-watches/w-watches.component';
 import { WClothingComponent } from './w-clothing/w-clothing.component';
 import { FootwearHandbagsComponent } from './footwear-handbags/footwear-handbags.component';
 import { FashionJwelleryComponent } from './fashion-jwellery/fashion-jwellery.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideAnalytics,getAnalytics,ScreenTrackingService,UserTrackingService } from '@angular/fire/analytics';
+import { provideAuth,getAuth } from '@angular/fire/auth';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { provideFunctions,getFunctions } from '@angular/fire/functions';
+import { provideMessaging,getMessaging } from '@angular/fire/messaging';
+import { providePerformance,getPerformance } from '@angular/fire/performance';
+import { provideRemoteConfig,getRemoteConfig } from '@angular/fire/remote-config';
+import { provideStorage,getStorage } from '@angular/fire/storage';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { RouterModule } from '@angular/router';
+import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProductLocationComponent } from './product-location/product-location.component';
+import { DetailsLaptopComponent } from './details/details-laptop/details-laptop.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
     HomeComponent,
+    HeaderComponent,
     FooterComponent,
     PrivacyNoticeComponent,
     ConditionsUseSellComponent,
@@ -70,7 +86,9 @@ import { FashionJwelleryComponent } from './fashion-jwellery/fashion-jwellery.co
     WWatchesComponent,
     WClothingComponent,
     FootwearHandbagsComponent,
-    FashionJwelleryComponent
+    FashionJwelleryComponent,
+    ProductLocationComponent,
+    DetailsLaptopComponent
   ],
   imports: [
     HttpClientModule,
@@ -79,9 +97,24 @@ import { FashionJwelleryComponent } from './fashion-jwellery/fashion-jwellery.co
     CarouselModule,
     FormsModule,
     ReactiveFormsModule,
-    ModalModule.forRoot()
+    ModalModule.forRoot(),
+    RouterModule,
+    NgbRatingModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideAnalytics(() => getAnalytics()),
+    provideAuth(() => getAuth()),
+    provideDatabase(() => getDatabase()),
+    provideFirestore(() => getFirestore()),
+    provideFunctions(() => getFunctions()),
+    provideMessaging(() => getMessaging()),
+    providePerformance(() => getPerformance()),
+    provideRemoteConfig(() => getRemoteConfig()),
+    provideStorage(() => getStorage()),
+    NgbModule
   ],
-  providers: [],
+  providers: [
+    ScreenTrackingService,UserTrackingService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

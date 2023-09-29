@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ecommerce-7ba5d": {
+      "hosting": {
+        "ecommerce": [
+          "ecommerce-7ba5d"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ecommerce-7ba5d"
+  }
+}

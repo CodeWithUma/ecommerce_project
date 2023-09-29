@@ -26,6 +26,7 @@ import { WWatchesComponent } from './w-watches/w-watches.component';
 import { WClothingComponent } from './w-clothing/w-clothing.component';
 import { FootwearHandbagsComponent } from './footwear-handbags/footwear-handbags.component';
 import { FashionJwelleryComponent } from './fashion-jwellery/fashion-jwellery.component';
+import { DetailsLaptopComponent } from './details/details-laptop/details-laptop.component';
 
 const routes: Routes = [
   {
@@ -131,6 +132,10 @@ const routes: Routes = [
   {
     component: FashionJwelleryComponent,
     path: 'fashion-jwellery',
+  },
+  {
+    component: DetailsLaptopComponent,
+    path: 'details-laptop',
   }
 ];
 

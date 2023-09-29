@@ -1,0 +1,5 @@
+<section class="listing">
+    <img class="listing-photo" [src]="productLocation.photo" alt="Exterior photo of {{productLocation.name}}">
+    <h2 class="listing-heading">{{ productLocation.name }}</h2>
+    <a routerLink="{{ productLocation.link.url }}">{{ productLocation.link.text }}</a>
+</section>

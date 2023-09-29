@@ -25,3 +25,34 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## ng add @angular/fire
+## Skipping installation: Package already installed
+## UPDATE package.json (1493 bytes)
+## ? What features would you like to setup? Authentication
+## Using firebase-tools version 10.2.0
+## ? Allow Firebase to collect CLI usage and error reporting information? No
+## ? Enter authorization code:
+
+1/ First, you have to connect your firebase account > firebase login
+
+2/ Next, check if the connection is alright (you need to create your project on firebase in a first place to see it in the result) > firebase projects:list
+
+3/ Then, you need to initialize firebase > firebase init
+
+4/ And now you can add the following command > ng add @angular/fire
+
+5/ Then do > npm install firebase
+
+## Angular Rating
+
+1/ Just add the following > ng add @ng-bootstrap/ng-bootstrap
+2/ RouterModule,
+3/ NgbRatingModule,
+4/ NgbModule
+
+## Installing Error
+
+1/ There is an error while installing Angular Material in my angular app.
+2/ The reason behind this was 'ng-bootstrap' has already been installed in my angular app.
+3/ So, cannot install angular material in my app.

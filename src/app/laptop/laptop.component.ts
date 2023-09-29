@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { LaptopDescription } from '../data-type';
 
 @Component({
   selector: 'app-laptop',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./laptop.component.scss']
 })
 export class LaptopComponent {
-
+  @Input() laptopDescription!: LaptopDescription;
 }
