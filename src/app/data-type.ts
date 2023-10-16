@@ -33,7 +33,6 @@ export interface ProductLocation {
   name: string;
   photo: string;
   link: {
-    text: string;
     url: string;
   };
 }
