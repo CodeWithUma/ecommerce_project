@@ -1,9 +1,8 @@
 import { Component, inject } from '@angular/core';
-import { ModalService } from 'src/app/modal.service';
 import { BsModalRef } from 'ngx-bootstrap/modal';
-import { SignupModalService } from '../signup-modal.service';
 import { productName } from '../data-type';
 import { ProductService } from '../services/product.service';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-header',
@@ -11,20 +10,21 @@ import { ProductService } from '../services/product.service';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  constructor(private modalService: ModalService, private signupModalService: SignupModalService, private product:ProductService) {}
+  constructor(private modalService: NgbModal, private product:ProductService) {}
   
   housingLocationList: productName[] = [];
   housingService: ProductService = inject(ProductService);
   filteredLocationList: productName[] = [];
+  mobileNumber: string = '';
   
   bsModalRef: BsModalRef | any;
 
-  openModal() {
-    this.modalService.showModal();
+  openModal1(content1: any) {
+    this.modalService.open(content1,{centered: true});
   }
   
-  openModal1() {
-    this.signupModalService.showModal1();
+  openModal2(content2: any) {
+    this.modalService.open(content2,{centered: true});
   }
   
 }

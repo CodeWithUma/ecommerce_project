@@ -27,6 +27,13 @@ import { WClothingComponent } from './w-clothing/w-clothing.component';
 import { FootwearHandbagsComponent } from './footwear-handbags/footwear-handbags.component';
 import { FashionJwelleryComponent } from './fashion-jwellery/fashion-jwellery.component';
 import { DetailsLaptopComponent } from './details/details-laptop/details-laptop.component';
+import { DetailsMouseComponent } from './details/details-mouse/details-mouse.component';
+import { DetailsPrinterComponent } from './details/details-printer/details-printer.component';
+import { DetailsMonitorComponent } from './details/details-monitor/details-monitor.component';
+import { DetailsAcComponent } from './details/details-ac/details-ac.component';
+import { DetailsRefridgeratorComponent } from './details/details-refridgerator/details-refridgerator.component';
+import { DetailsTvComponent } from './details/details-tv/details-tv.component';
+import { DetailsWashingMachineComponent } from './details/details-washing-machine/details-washing-machine.component';
 
 const routes: Routes = [
   {
@@ -135,8 +142,36 @@ const routes: Routes = [
   },
   {
     component: DetailsLaptopComponent,
-    path: 'details-laptop',
-  }
+    path: 'details/:productId',
+  },
+  {
+    component: DetailsMouseComponent,
+    path: 'details_mouse/:productId',
+  },
+  {
+    component: DetailsPrinterComponent,
+    path: 'details_printer/:productId',
+  },
+  {
+    component: DetailsMonitorComponent,
+    path: 'details_monitor/:productId',
+  },
+  {
+    component: DetailsAcComponent,
+    path: 'details_ac/:productId',
+  },
+  {
+    component: DetailsRefridgeratorComponent,
+    path: 'details_refridgerator/:productId',
+  },
+  {
+    component: DetailsTvComponent,
+    path: 'details_tv/:productId',
+  },
+  {
+    component: DetailsWashingMachineComponent,
+    path: 'details_wm/:productId',
+  },
 ];
 
 @NgModule({

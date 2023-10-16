@@ -1,72 +1,25 @@
-.listing-photo {
-  height: 600px;
-  width: 50%;
-  object-fit: cover;
-  border-radius: 30px;
-  float: right;
+.product-details{
+  margin-top: 50px;
+  margin-bottom: 80px;
 }
-
-.listing-heading {
-  font-size: 48pt;
-  font-weight: bold;
-  margin-bottom: 15px;
+.product-details .product-img{
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
 }
-
-.listing-location::before {
-  content: url("/assets/location-pin.svg") / "";
+.product-color{
+  border: 3px solid #000;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
-
-.listing-location {
-  font-size: 24pt;
-  margin-bottom: 15px;
+.quantity-group{
+  margin-top: 20px;
 }
-
-.listing-features > .section-heading {
-  color: var(--secondary-color);
-  font-size: 24pt;
-  margin-bottom: 15px;
-}
-
-.listing-features {
-  margin-bottom: 20px;
-}
-
-.listing-features li {
-  font-size: 14pt;
-}
-
-li {
-  list-style-type: none;
-}
-
-.listing-apply .section-heading {
-  font-size: 18pt;
-  margin-bottom: 15px;
-}
-
-label,
-input {
-  display: block;
-}
-label {
-  color: var(--secondary-color);
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 12pt;
-}
-input {
-  font-size: 16pt;
-  margin-bottom: 15px;
+.quantity-group button{
   padding: 10px;
-  width: 400px;
-  border-top: none;
-  border-right: none;
-  border-left: none;
-  border-bottom: solid 0.3px;
 }
-@media (max-width: 1024px) {
-  .listing-photo {
-    width: 100%;
-    height: 400px;
-  }
+.quantity-group input{
+  padding: 10px;
+  width: 50px;
 }

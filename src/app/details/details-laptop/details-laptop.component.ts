@@ -1,21 +1,28 @@
-import { Component, inject } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { LaptopDescription } from 'src/app/data-type';
-import { DetailsLaptopService } from 'src/app/services/details-laptop.service';
+import { product } from 'src/app/data-type';
+import { ProductService } from 'src/app/services/product.service';
+import { NgbRatingConfig } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-details-laptop',
   templateUrl: './details-laptop.component.html',
-  styleUrls: ['./details-laptop.component.scss']
+  styleUrls: ['./details-laptop.component.scss'],
 })
-export class DetailsLaptopComponent {
-  route: ActivatedRoute = inject(ActivatedRoute);
-  laptopService = inject(DetailsLaptopService);
-  laptopDescription: LaptopDescription | undefined;
-
-  constructor() {
-    const laptopDescriptionId = parseInt(this.route.snapshot.params['id'], 10);
-    this.laptopDescription = this.laptopService.getProductLocationById(laptopDescriptionId);
+export class DetailsLaptopComponent implements OnInit{
+  productData:undefined | product;
+  productQuantity:number=1;
+  removeCart=false;
+  cartData:product|undefined;
+  constructor(private activeRoute:ActivatedRoute, private product:ProductService, config: NgbRatingConfig) { 
+    config.max = 5;
+		config.readonly = true;
   }
 
+  ngOnInit(): void {
+    let productId= this.activeRoute.snapshot.paramMap.get('productId');
+    productId && this.product.getLaptopProductList(productId).subscribe((result)=>{
+      this.productData= result;
+    })
+  }
 }

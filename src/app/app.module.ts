@@ -10,9 +10,8 @@ import { FooterComponent } from './footer/footer.component';
 import { PrivacyNoticeComponent } from './privacy-notice/privacy-notice.component';
 import { ConditionsUseSellComponent } from './conditions-use-sell/conditions-use-sell.component';
 import { InterestBasedAddsComponent } from './interest-based-adds/interest-based-adds.component';
-import { ModalContentComponent } from './modal-content/modal-content.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
-import { SignupModalContentComponent } from './signup-modal-content/signup-modal-content.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RefridgeratorComponent } from './refridgerator/refridgerator.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LaptopComponent } from './laptop/laptop.component';
@@ -52,7 +51,13 @@ import { RouterModule } from '@angular/router';
 import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProductLocationComponent } from './product-location/product-location.component';
 import { DetailsLaptopComponent } from './details/details-laptop/details-laptop.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DetailsMouseComponent } from './details/details-mouse/details-mouse.component';
+import { DetailsPrinterComponent } from './details/details-printer/details-printer.component';
+import { DetailsMonitorComponent } from './details/details-monitor/details-monitor.component';
+import { DetailsAcComponent } from './details/details-ac/details-ac.component';
+import { DetailsRefridgeratorComponent } from './details/details-refridgerator/details-refridgerator.component';
+import { DetailsTvComponent } from './details/details-tv/details-tv.component';
+import { DetailsWashingMachineComponent } from './details/details-washing-machine/details-washing-machine.component';
 
 @NgModule({
   declarations: [
@@ -63,8 +68,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     PrivacyNoticeComponent,
     ConditionsUseSellComponent,
     InterestBasedAddsComponent,
-    ModalContentComponent,
-    SignupModalContentComponent,
     RefridgeratorComponent,
     LaptopComponent,
     MouseComponent,
@@ -88,7 +91,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FootwearHandbagsComponent,
     FashionJwelleryComponent,
     ProductLocationComponent,
-    DetailsLaptopComponent
+    DetailsLaptopComponent,
+    DetailsMouseComponent,
+    DetailsPrinterComponent,
+    DetailsMonitorComponent,
+    DetailsAcComponent,
+    DetailsRefridgeratorComponent,
+    DetailsTvComponent,
+    DetailsWashingMachineComponent
   ],
   imports: [
     HttpClientModule,
