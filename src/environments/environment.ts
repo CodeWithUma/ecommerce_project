@@ -10,4 +10,5 @@ export const environment = {
     messagingSenderId: '109808178475',
     measurementId: 'G-5TKX850QBL',
   },
+  production: false,
 };
