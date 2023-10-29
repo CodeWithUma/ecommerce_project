@@ -114,7 +114,7 @@ import { CartComponent } from './features/cart/cart.component';
     ModalModule.forRoot(),
     RouterModule,
     NgbRatingModule,
-    provideFirebaseApp(() => initializeApp()),
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAnalytics(() => getAnalytics()),
     provideAuth(() => getAuth()),
     provideDatabase(() => getDatabase()),
