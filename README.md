@@ -56,3 +56,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 1/ There is an error while installing Angular Material in my angular app.
 2/ The reason behind this was 'ng-bootstrap' has already been installed in my angular app.
 3/ So, cannot install angular material in my app.
+
+## Error in SPEC file, do this:-
+1/ Use these commands:- 
+    a/ npm upgrade 
+    b/ npm install --save-dev "@types/jasmine"
+2/ then in app.component.spec.ts import { } from 'jasmine';

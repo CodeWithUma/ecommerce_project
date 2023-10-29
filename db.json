@@ -19,7 +19,7 @@
             "graphics": "Integrated",
             "category": "laptop",
             "color": "#B8BEC3",
-            "image": "./assets/images/L_1.0/L_1.0.jpg",
+            "image": "//assets/images/L_1.0/L_1.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -41,7 +41,7 @@
             "graphics": "Integrated",
             "category": "laptop",
             "color": "#702670",
-            "image": "./assets/images/L_2.0/L_2.0.jpg",
+            "image": "//assets/images/L_2.0/L_2.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -63,7 +63,7 @@
             "graphics": "Integrated",
             "category": "laptop",
             "color": "#C0c0c0",
-            "image": "./assets/images/L_3.0/L_3.0.jpg",
+            "image": "//assets/images/L_3.0/L_3.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -85,7 +85,7 @@
             "graphics": "Intel UHD Graphics",
             "category": "laptop",
             "color": "#494B4D",
-            "image": "./assets/images/L_4.0/L_4.0.jpg",
+            "image": "//assets/images/L_4.0/L_4.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -107,7 +107,7 @@
             "graphics": "Intel UHD Graphics",
             "category": "laptop",
             "color": "Silver",
-            "image": "./assets/images/L_5.0/L_5.0.jpg",
+            "image": "//assets/images/L_5.0/L_5.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -129,7 +129,7 @@
             "graphics": "Intel UHD Graphics",
             "category": "laptop",
             "color": "Blue",
-            "image": "./assets/images/L_6.0/L_6.0.jpg",
+            "image": "//assets/images/L_6.0/L_6.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -151,7 +151,7 @@
             "graphics": "Intel UHD Graphics",
             "category": "laptop",
             "color": "Gold",
-            "image": "./assets/images/L_7.0/L_7.0.jpg",
+            "image": "//assets/images/L_7.0/L_7.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -173,7 +173,7 @@
             "graphics": "Intel UHD Graphics",
             "category": "laptop",
             "color": "Silver",
-            "image": "./assets/images/L_8.0/L_8.0.jpg",
+            "image": "//assets/images/L_8.0/L_8.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -195,7 +195,7 @@
             "graphics": "Intel UHD Graphics",
             "category": "laptop",
             "color": "Arctic Grey",
-            "image": "./assets/images/L_9.0/L_9.0.jpg",
+            "image": "//assets/images/L_9.0/L_9.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -217,7 +217,7 @@
             "graphics": "Intel UHD Graphics",
             "category": "laptop",
             "color": "Shadow Black",
-            "image": "./assets/images/L_10.0/L_10.0.jpg",
+            "image": "//assets/images/L_10.0/L_10.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -239,7 +239,7 @@
             "graphics": "Intel UHD Graphics",
             "category": "laptop",
             "color": "Grey",
-            "image": "./assets/images/L_11.0/L_11.0.jpg",
+            "image": "//assets/images/L_11.0/L_11.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -261,7 +261,7 @@
             "graphics": "Intel UHD Graphics",
             "category": "laptop",
             "color": "Black",
-            "image": "./assets/images/L_12.0/L_12.0.jpg",
+            "image": "//assets/images/L_12.0/L_12.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -283,7 +283,7 @@
             "graphics": "Intel UHD Graphics",
             "category": "laptop",
             "color": "Lusterous Grey",
-            "image": "./assets/images/L_13.0/L_13.0.jpg",
+            "image": "//assets/images/L_13.0/L_13.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -305,7 +305,7 @@
             "graphics": "Intel UHD Graphics",
             "category": "laptop",
             "color": "Silver",
-            "image": "./assets/images/L_14.0/L_14.0.jpg",
+            "image": "//assets/images/L_14.0/L_14.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -327,7 +327,7 @@
             "graphics": "Intel UHD Graphics",
             "category": "laptop",
             "color": "Silver",
-            "image": "./assets/images/L_15.0/L_15.0.jpg",
+            "image": "//assets/images/L_15.0/L_15.0.jpg",
             "description": "This is a Samsung product"
         }
     ],
@@ -338,7 +338,7 @@
             "price": "550",
             "category": "mouse",
             "color": "white",
-            "image": "./assets/images/M_1.0/M_1.0.jpg",
+            "image": "//assets/images/M_1.0/M_1.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -347,7 +347,7 @@
             "price": "550",
             "category": "mouse",
             "color": "white",
-            "image": "./assets/images/M_2.0/M_2.0.jpg",
+            "image": "//assets/images/M_2.0/M_2.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -356,7 +356,7 @@
             "price": "550",
             "category": "mouse",
             "color": "white",
-            "image": "./assets/images/M_3.0/M_3.0.jpg",
+            "image": "//assets/images/M_3.0/M_3.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -365,7 +365,7 @@
             "price": "550",
             "category": "mouse",
             "color": "white",
-            "image": "./assets/images/M_4.0/M_4.0.jpg",
+            "image": "//assets/images/M_4.0/M_4.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -374,7 +374,7 @@
             "price": "550",
             "category": "mouse",
             "color": "white",
-            "image": "./assets/images/M_5.0/M_5.0.jpg",
+            "image": "//assets/images/M_5.0/M_5.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -383,7 +383,7 @@
             "price": "550",
             "category": "mouse",
             "color": "white",
-            "image": "./assets/images/M_6.0/M_6.0.jpg",
+            "image": "//assets/images/M_6.0/M_6.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -392,7 +392,7 @@
             "price": "550",
             "category": "mouse",
             "color": "white",
-            "image": "./assets/images/M_7.0/M_7.0.jpg",
+            "image": "//assets/images/M_7.0/M_7.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -401,7 +401,7 @@
             "price": "550",
             "category": "mouse",
             "color": "white",
-            "image": "./assets/images/M_8.0/M_8.0.jpg",
+            "image": "//assets/images/M_8.0/M_8.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -410,7 +410,7 @@
             "price": "550",
             "category": "mouse",
             "color": "white",
-            "image": "./assets/images/M_9.0/M_9.0.jpg",
+            "image": "//assets/images/M_9.0/M_9.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -419,7 +419,7 @@
             "price": "550",
             "category": "mouse",
             "color": "white",
-            "image": "./assets/images/M_10.0/M_10.0.jpg",
+            "image": "//assets/images/M_10.0/M_10.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -428,7 +428,7 @@
             "price": "550",
             "category": "mouse",
             "color": "white",
-            "image": "./assets/images/M_11.0/M_11.0.jpg",
+            "image": "//assets/images/M_11.0/M_11.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -437,7 +437,7 @@
             "price": "550",
             "category": "mouse",
             "color": "white",
-            "image": "./assets/images/M_12.0/M_12.0.jpg",
+            "image": "//assets/images/M_12.0/M_12.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -446,7 +446,7 @@
             "price": "550",
             "category": "mouse",
             "color": "white",
-            "image": "./assets/images/M_13.0/M_13.0.jpg",
+            "image": "//assets/images/M_13.0/M_13.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -455,7 +455,7 @@
             "price": "550",
             "category": "mouse",
             "color": "white",
-            "image": "./assets/images/M_14.0/M_14.0.jpg",
+            "image": "//assets/images/M_14.0/M_14.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -464,7 +464,7 @@
             "price": "550",
             "category": "mouse",
             "color": "white",
-            "image": "./assets/images/M_15.0/M_15.0.jpg",
+            "image": "//assets/images/M_15.0/M_15.0.jpg",
             "description": "This is a Samsung product"
         }
     ],
@@ -475,7 +475,7 @@
             "price": "550",
             "category": "printer",
             "color": "white",
-            "image": "./assets/images/P_1.0/P_1.0.jpg",
+            "image": "//assets/images/P_1.0/P_1.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -484,7 +484,7 @@
             "price": "550",
             "category": "printer",
             "color": "white",
-            "image": "./assets/images/P_2.0/P_2.0.jpg",
+            "image": "//assets/images/P_2.0/P_2.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -493,7 +493,7 @@
             "price": "550",
             "category": "printer",
             "color": "white",
-            "image": "./assets/images/P_3.0/P_3.0.jpg",
+            "image": "//assets/images/P_3.0/P_3.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -502,7 +502,7 @@
             "price": "550",
             "category": "printer",
             "color": "white",
-            "image": "./assets/images/P_4.0/P_4.0.jpg",
+            "image": "//assets/images/P_4.0/P_4.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -511,7 +511,7 @@
             "price": "550",
             "category": "printer",
             "color": "white",
-            "image": "./assets/images/P_5.0/P_5.0.jpg",
+            "image": "//assets/images/P_5.0/P_5.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -520,7 +520,7 @@
             "price": "550",
             "category": "printer",
             "color": "white",
-            "image": "./assets/images/P_6.0/P_6.0.jpg",
+            "image": "//assets/images/P_6.0/P_6.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -529,7 +529,7 @@
             "price": "550",
             "category": "printer",
             "color": "white",
-            "image": "./assets/images/P_7.0/P_7.0.jpg",
+            "image": "//assets/images/P_7.0/P_7.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -538,7 +538,7 @@
             "price": "550",
             "category": "printer",
             "color": "white",
-            "image": "./assets/images/P_8.0/P_8.0.jpg",
+            "image": "//assets/images/P_8.0/P_8.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -547,7 +547,7 @@
             "price": "550",
             "category": "printer",
             "color": "white",
-            "image": "./assets/images/P_9.0/P_9.0.jpg",
+            "image": "//assets/images/P_9.0/P_9.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -556,7 +556,7 @@
             "price": "550",
             "category": "printer",
             "color": "white",
-            "image": "./assets/images/P_10.0/P_10.0.jpg",
+            "image": "//assets/images/P_10.0/P_10.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -565,7 +565,7 @@
             "price": "550",
             "category": "printer",
             "color": "white",
-            "image": "./assets/images/P_11.0/P_11.0.jpg",
+            "image": "//assets/images/P_11.0/P_11.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -574,7 +574,7 @@
             "price": "550",
             "category": "printer",
             "color": "white",
-            "image": "./assets/images/P_12.0/P_12.0.jpg",
+            "image": "//assets/images/P_12.0/P_12.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -583,7 +583,7 @@
             "price": "550",
             "category": "printer",
             "color": "white",
-            "image": "./assets/images/P_13.0/P_13.0.jpg",
+            "image": "//assets/images/P_13.0/P_13.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -592,7 +592,7 @@
             "price": "550",
             "category": "printer",
             "color": "white",
-            "image": "./assets/images/P_14.0/P_14.0.jpg",
+            "image": "//assets/images/P_14.0/P_14.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -601,7 +601,7 @@
             "price": "550",
             "category": "printer",
             "color": "white",
-            "image": "./assets/images/P_15.0/P_15.0.jpg",
+            "image": "//assets/images/P_15.0/P_15.0.jpg",
             "description": "This is a Samsung product"
         }
     ],
@@ -612,7 +612,7 @@
             "price": "550",
             "category": "monitor, tv",
             "color": "white",
-            "image": "./assets/images/MO_1.0/MO_1.0.jpg",
+            "image": "//assets/images/MO_1.0/MO_1.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -621,7 +621,7 @@
             "price": "550",
             "category": "monitor, tv",
             "color": "white",
-            "image": "./assets/images/MO_2.0/MO_2.0.jpg",
+            "image": "//assets/images/MO_2.0/MO_2.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -630,7 +630,7 @@
             "price": "550",
             "category": "monitor, tv",
             "color": "white",
-            "image": "./assets/images/MO_3.0/MO_3.0.jpg",
+            "image": "//assets/images/MO_3.0/MO_3.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -639,7 +639,7 @@
             "price": "550",
             "category": "monitor, tv",
             "color": "white",
-            "image": "./assets/images/MO_4.0/MO_4.0.jpg",
+            "image": "//assets/images/MO_4.0/MO_4.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -648,7 +648,7 @@
             "price": "550",
             "category": "monitor, tv",
             "color": "white",
-            "image": "./assets/images/MO_5.0/MO_5.0.jpg",
+            "image": "//assets/images/MO_5.0/MO_5.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -657,7 +657,7 @@
             "price": "550",
             "category": "monitor, tv",
             "color": "white",
-            "image": "./assets/images/MO_6.0/MO_6.0.jpg",
+            "image": "//assets/images/MO_6.0/MO_6.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -666,7 +666,7 @@
             "price": "550",
             "category": "monitor, tv",
             "color": "white",
-            "image": "./assets/images/MO_7.0/MO_7.0.jpg",
+            "image": "//assets/images/MO_7.0/MO_7.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -675,7 +675,7 @@
             "price": "550",
             "category": "monitor, tv",
             "color": "white",
-            "image": "./assets/images/MO_8.0/MO_8.0.jpg",
+            "image": "//assets/images/MO_8.0/MO_8.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -684,7 +684,7 @@
             "price": "550",
             "category": "monitor, tv",
             "color": "white",
-            "image": "./assets/images/MO_9.0/MO_9.0.jpg",
+            "image": "//assets/images/MO_9.0/MO_9.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -693,7 +693,7 @@
             "price": "550",
             "category": "monitor, tv",
             "color": "white",
-            "image": "./assets/images/MO_10.0/MO_10.0.jpg",
+            "image": "//assets/images/MO_10.0/MO_10.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -702,7 +702,7 @@
             "price": "550",
             "category": "monitor, tv",
             "color": "white",
-            "image": "./assets/images/MO_11.0/MO_11.0.jpg",
+            "image": "//assets/images/MO_11.0/MO_11.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -711,7 +711,7 @@
             "price": "550",
             "category": "monitor, tv",
             "color": "white",
-            "image": "./assets/images/MO_12.0/MO_12.0.jpg",
+            "image": "//assets/images/MO_12.0/MO_12.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -720,7 +720,7 @@
             "price": "550",
             "category": "monitor, tv",
             "color": "white",
-            "image": "./assets/images/MO_13.0/MO_13.0.jpg",
+            "image": "//assets/images/MO_13.0/MO_13.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -729,7 +729,7 @@
             "price": "550",
             "category": "monitor, tv",
             "color": "white",
-            "image": "./assets/images/MO_14.0/MO_14.0.jpg",
+            "image": "//assets/images/MO_14.0/MO_14.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -738,7 +738,7 @@
             "price": "550",
             "category": "monitor, tv",
             "color": "white",
-            "image": "./assets/images/MO_15.0/MO_15.0.jpg",
+            "image": "//assets/images/MO_15.0/MO_15.0.jpg",
             "description": "This is a Samsung product"
         }
     ],
@@ -886,7 +886,7 @@
             "price": "550",
             "category": "Refridgerator, refridgerator, fridge",
             "color": "white",
-            "image": "./assets/images/S_1.0/S_1.0.jpg",
+            "image": "//assets/images/S_1.0/S_1.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -895,7 +895,7 @@
             "price": "550",
             "category": "Refridgerator, refridgerator, fridge",
             "color": "white",
-            "image": "./assets/images/S_2.0/S_2.0.jpg",
+            "image": "//assets/images/S_2.0/S_2.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -904,7 +904,7 @@
             "price": "550",
             "category": "Refridgerator, refridgerator, fridge",
             "color": "white",
-            "image": "./assets/images/S_3.0/S_3.0.jpg",
+            "image": "//assets/images/S_3.0/S_3.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -913,7 +913,7 @@
             "price": "550",
             "category": "Refridgerator, refridgerator, fridge",
             "color": "white",
-            "image": "./assets/images/S_4.0/S_4.0.jpg",
+            "image": "//assets/images/S_4.0/S_4.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -922,7 +922,7 @@
             "price": "550",
             "category": "Refridgerator, refridgerator, fridge",
             "color": "white",
-            "image": "./assets/images/S_5.0/S_5.0.jpg",
+            "image": "//assets/images/S_5.0/S_5.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -931,7 +931,7 @@
             "price": "550",
             "category": "Refridgerator, refridgerator, fridge",
             "color": "white",
-            "image": "./assets/images/S_6.0/S_6.0.jpg",
+            "image": "//assets/images/S_6.0/S_6.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -940,7 +940,7 @@
             "price": "550",
             "category": "Refridgerator, refridgerator, fridge",
             "color": "white",
-            "image": "./assets/images/S_7.0/S_7.0.jpg",
+            "image": "//assets/images/S_7.0/S_7.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -949,7 +949,7 @@
             "price": "550",
             "category": "Refridgerator, refridgerator, fridge",
             "color": "white",
-            "image": "./assets/images/S_8.0/S_8.0.jpg",
+            "image": "//assets/images/S_8.0/S_8.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -958,7 +958,7 @@
             "price": "550",
             "category": "Refridgerator, refridgerator, fridge",
             "color": "white",
-            "image": "./assets/images/S_9.0/S_9.0.jpg",
+            "image": "//assets/images/S_9.0/S_9.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -967,7 +967,7 @@
             "price": "550",
             "category": "Refridgerator, refridgerator, fridge",
             "color": "white",
-            "image": "./assets/images/S_10.0/S_10.0.jpg",
+            "image": "//assets/images/S_10.0/S_10.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -976,7 +976,7 @@
             "price": "550",
             "category": "Refridgerator, refridgerator, fridge",
             "color": "white",
-            "image": "./assets/images/S_11.0/S_11.0.jpg",
+            "image": "//assets/images/S_11.0/S_11.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -985,7 +985,7 @@
             "price": "550",
             "category": "Refridgerator, refridgerator, fridge",
             "color": "white",
-            "image": "./assets/images/S_12.0/S_12.0.jpg",
+            "image": "//assets/images/S_12.0/S_12.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -994,7 +994,7 @@
             "price": "550",
             "category": "Refridgerator, refridgerator, fridge",
             "color": "white",
-            "image": "./assets/images/S_13.0/S_13.0.jpg",
+            "image": "//assets/images/S_13.0/S_13.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -1003,7 +1003,7 @@
             "price": "550",
             "category": "Refridgerator, refridgerator, fridge",
             "color": "white",
-            "image": "./assets/images/S_14.0/S_14.0.jpg",
+            "image": "//assets/images/S_14.0/S_14.0.jpg",
             "description": "This is a Samsung product"
         },
         {
@@ -1012,7 +1012,7 @@
             "price": "550",
             "category": "Refridgerator, refridgerator, fridge",
             "color": "white",
-            "image": "./assets/images/S_15.0/S_15.0.jpg",
+            "image": "//assets/images/S_15.0/S_15.0.jpg",
             "description": "This is a Samsung product"
         }
     ],
@@ -1154,6 +1154,1283 @@
         }
     ],
     "wm_product_list": [
+        {
+            "id": 106,
+            "name": "Washing Machine",
+            "price": "550",
+            "category": "Washing Machine, washing machine, drum, washing clothes",
+            "color": "white",
+            "image": "/assets/images/W-M_1.0/W-M_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 107,
+            "name": "Washing Machine",
+            "price": "550",
+            "category": "Washing Machine, washing machine, drum, washing clothes",
+            "color": "white",
+            "image": "/assets/images/W-M_2.0/W-M_2.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 108,
+            "name": "Washing Machine",
+            "price": "550",
+            "category": "Washing Machine, washing machine, drum, washing clothes",
+            "color": "white",
+            "image": "/assets/images/W-M_3.0/W-M_3.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 109,
+            "name": "Washing Machine",
+            "price": "550",
+            "category": "Washing Machine, washing machine, drum, washing clothes",
+            "color": "white",
+            "image": "/assets/images/W-M_4.0/W-M_4.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 110,
+            "name": "Washing Machine",
+            "price": "550",
+            "category": "Washing Machine, washing machine, drum, washing clothes",
+            "color": "white",
+            "image": "/assets/images/W-M_5.0/W-M_5.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 111,
+            "name": "Washing Machine",
+            "price": "550",
+            "category": "Washing Machine, washing machine, drum, washing clothes",
+            "color": "white",
+            "image": "/assets/images/W-M_6.0/W-M_6.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 112,
+            "name": "Washing Machine",
+            "price": "550",
+            "category": "Washing Machine, washing machine, drum, washing clothes",
+            "color": "white",
+            "image": "/assets/images/W-M_7.0/W-M_7.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 113,
+            "name": "Washing Machine",
+            "price": "550",
+            "category": "Washing Machine, washing machine, drum, washing clothes",
+            "color": "white",
+            "image": "/assets/images/W-M_8.0/W-M_8.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 114,
+            "name": "Washing Machine",
+            "price": "550",
+            "category": "Washing Machine, washing machine, drum, washing clothes",
+            "color": "white",
+            "image": "/assets/images/W-M_9.0/W-M_9.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 115,
+            "name": "Washing Machine",
+            "price": "550",
+            "category": "Washing Machine, washing machine, drum, washing clothes",
+            "color": "white",
+            "image": "/assets/images/W-M_10.0/W-M_10.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 116,
+            "name": "Washing Machine",
+            "price": "550",
+            "category": "Washing Machine, washing machine, drum, washing clothes",
+            "color": "white",
+            "image": "/assets/images/W-M_11.0/W-M_11.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 117,
+            "name": "Washing Machine",
+            "price": "550",
+            "category": "Washing Machine, washing machine, drum, washing clothes",
+            "color": "white",
+            "image": "/assets/images/W-M_12.0/W-M_12.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 118,
+            "name": "Washing Machine",
+            "price": "550",
+            "category": "Washing Machine, washing machine, drum, washing clothes",
+            "color": "white",
+            "image": "/assets/images/W-M_13.0/W-M_13.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 119,
+            "name": "Washing Machine",
+            "price": "550",
+            "category": "Washing Machine, washing machine, drum, washing clothes",
+            "color": "white",
+            "image": "/assets/images/W-M_14.0/W-M_14.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 120,
+            "name": "Washing Machine",
+            "price": "550",
+            "category": "Washing Machine, washing machine, drum, washing clothes",
+            "color": "white",
+            "image": "/assets/images/W-M_15.0/W-M_15.0.jpg",
+            "description": "This is a Samsung product"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Lenovo IdeaPad",
+            "firstName": "Slim 5 13th Gen Intel Core i5 WUXGA IPS Laptop (16GB/512GB SSD/Win 11/Office 2021/Backlit KB",
+            "lastName": "/FHD Camera/Alexa/3 Month Game Pass/Cloud Grey/1.89Kg) 82XF003GIN",
+            "rating": 3,
+            "price": "Rs. 71,990",
+            "brand": "Lenovo",
+            "modelName": "IdeaPad Slim 5 16IRL8",
+            "screenSize": "16 inches",
+            "shade": "Cloud Grey",
+            "diskSize": "512 GB",
+            "cpuModel": "Intel core i5",
+            "memory": "16 GB",
+            "system": "Windows 11 home",
+            "features": "HD Audio, Backlit Keyboard, Memory Card Slot",
+            "graphics": "Integrated",
+            "category": "laptop",
+            "color": "#B8BEC3",
+            "image": "//assets/images/L_1.0/L_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 2,
+            "name": "Apple 2023 MacBook Air with M2 chip",
+            "firstName": ": 38.91 cm(15.3 inch) Liquid Retina Display, 8GB RAM 512GB SSD Storage,",
+            "lastName": "Backlit Keyboard, 1080p FaceTime HD Camera, Touch ID",
+            "rating": 5,
+            "price": "Rs. 1,45,860",
+            "brand": "Apple",
+            "modelName": "Macbook Air",
+            "screenSize": "15.3 inches",
+            "shade": "Midnight",
+            "diskSize": "512 GB",
+            "cpuModel": "None",
+            "memory": "8 GB",
+            "system": "Mac OS",
+            "features": "Apple M2 chip, Liquid Retina Display with True Tone, Touch ID, unified Memory",
+            "graphics": "Integrated",
+            "category": "laptop",
+            "color": "#702670",
+            "image": "//assets/images/L_2.0/L_2.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 3,
+            "name": "HP Laptop 15s, Intel Celeron N4500, ",
+            "firstName": "15.6 inch(39.6cm) HD Laptop (8GB RAM, 512GB SSD, Intel UHD Graphics,",
+            "lastName": "Dual Speakers,Numeric Keypad,Alexa,Win 11,MSO 21,Natural Silver,1.69 Kgs) 15s-fq3071TU",
+            "rating": 3,
+            "price": "Rs. 28,990",
+            "brand": "HP",
+            "modelName": "15s-fq3071TU",
+            "screenSize": "39.6 cm",
+            "shade": "Natural Silver",
+            "diskSize": "512 GB",
+            "cpuModel": "Celeron",
+            "memory": "8 GB",
+            "system": "Windows 11 home",
+            "features": "Brightview,HD,Microview Display,Numeric Keypad",
+            "graphics": "Integrated",
+            "category": "laptop",
+            "color": "#C0c0c0",
+            "image": "//assets/images/L_3.0/L_3.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 4,
+            "name": "Acer Aspire Lite, 11th Gen Intel Core i3",
+            "firstName": "",
+            "lastName": "",
+            "rating": 4,
+            "price": "Rs. 30,990",
+            "brand": "Acer",
+            "modelName": "Aspire Lite",
+            "screenSize": "15.6 inches",
+            "shade": "Steel grey",
+            "diskSize": "256 GB",
+            "cpuModel": "Core i3 1115G4",
+            "memory": "8 GB",
+            "system": "Windows 11 home",
+            "features": "Metal Body, Thin & Light",
+            "graphics": "Intel UHD Graphics",
+            "category": "laptop",
+            "color": "#494B4D",
+            "image": "//assets/images/L_4.0/L_4.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 5,
+            "name": "Apple 2023 MacBook Pro with M2 Max Chip",
+            "firstName": "",
+            "lastName": "",
+            "rating": 4,
+            "price": "Rs. 3,49,900",
+            "brand": "Acer",
+            "modelName": "Aspire Lite",
+            "screenSize": "15.6 inches",
+            "shade": "Steel grey",
+            "diskSize": "256 GB",
+            "cpuModel": "Core i3 1115G4",
+            "memory": "8 GB",
+            "system": "Windows 11 home",
+            "features": "Metal Body, Thin & Light",
+            "graphics": "Intel UHD Graphics",
+            "category": "laptop",
+            "color": "Silver",
+            "image": "//assets/images/L_5.0/L_5.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 6,
+            "name": "JioBook 11 (2023)",
+            "firstName": "",
+            "lastName": "",
+            "rating": 4,
+            "price": "Rs. 16,499",
+            "brand": "Acer",
+            "modelName": "Aspire Lite",
+            "screenSize": "15.6 inches",
+            "shade": "Steel grey",
+            "diskSize": "256 GB",
+            "cpuModel": "Core i3 1115G4",
+            "memory": "8 GB",
+            "system": "Windows 11 home",
+            "features": "Metal Body, Thin & Light",
+            "graphics": "Intel UHD Graphics",
+            "category": "laptop",
+            "color": "Blue",
+            "image": "//assets/images/L_6.0/L_6.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 7,
+            "name": "Apple MacBook Air M1 Chip",
+            "firstName": "",
+            "lastName": "",
+            "rating": 4,
+            "price": "Rs. 81,990",
+            "brand": "Acer",
+            "modelName": "Aspire Lite",
+            "screenSize": "15.6 inches",
+            "shade": "Steel grey",
+            "diskSize": "256 GB",
+            "cpuModel": "Core i3 1115G4",
+            "memory": "8 GB",
+            "system": "Windows 11 home",
+            "features": "Metal Body, Thin & Light",
+            "graphics": "Intel UHD Graphics",
+            "category": "laptop",
+            "color": "Gold",
+            "image": "//assets/images/L_7.0/L_7.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 8,
+            "name": "HP Laptop 15s, 12th Gen Intel Core i3",
+            "firstName": "",
+            "lastName": "",
+            "rating": 4,
+            "price": "Rs. 40,937",
+            "brand": "Acer",
+            "modelName": "Aspire Lite",
+            "screenSize": "15.6 inches",
+            "shade": "Steel grey",
+            "diskSize": "256 GB",
+            "cpuModel": "Core i3 1115G4",
+            "memory": "8 GB",
+            "system": "Windows 11 home",
+            "features": "Metal Body, Thin & Light",
+            "graphics": "Intel UHD Graphics",
+            "category": "laptop",
+            "color": "Silver",
+            "image": "//assets/images/L_8.0/L_8.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 9,
+            "name": "Lenovo IdeaPad Slim 3 Intel Core i7 11th Gen",
+            "firstName": "",
+            "lastName": "",
+            "rating": 4,
+            "price": "Rs. 62,500",
+            "brand": "Acer",
+            "modelName": "Aspire Lite",
+            "screenSize": "15.6 inches",
+            "shade": "Steel grey",
+            "diskSize": "256 GB",
+            "cpuModel": "Core i3 1115G4",
+            "memory": "8 GB",
+            "system": "Windows 11 home",
+            "features": "Metal Body, Thin & Light",
+            "graphics": "Intel UHD Graphics",
+            "category": "laptop",
+            "color": "Arctic Grey",
+            "image": "//assets/images/L_9.0/L_9.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 10,
+            "name": "HP Omen 13th Gen Intel Core i5",
+            "firstName": "",
+            "lastName": "",
+            "rating": 4,
+            "price": "Rs. 1,02,900",
+            "brand": "Acer",
+            "modelName": "Aspire Lite",
+            "screenSize": "15.6 inches",
+            "shade": "Steel grey",
+            "diskSize": "256 GB",
+            "cpuModel": "Core i3 1115G4",
+            "memory": "8 GB",
+            "system": "Windows 11 home",
+            "features": "Metal Body, Thin & Light",
+            "graphics": "Intel UHD Graphics",
+            "category": "laptop",
+            "color": "Shadow Black",
+            "image": "//assets/images/L_10.0/L_10.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 11,
+            "name": "HONOR MagicBook 12th Gen Intel Core i5",
+            "firstName": "",
+            "lastName": "",
+            "rating": 4,
+            "price": "Rs. 53,990",
+            "brand": "Acer",
+            "modelName": "Aspire Lite",
+            "screenSize": "15.6 inches",
+            "shade": "Steel grey",
+            "diskSize": "256 GB",
+            "cpuModel": "Core i3 1115G4",
+            "memory": "8 GB",
+            "system": "Windows 11 home",
+            "features": "Metal Body, Thin & Light",
+            "graphics": "Intel UHD Graphics",
+            "category": "laptop",
+            "color": "Grey",
+            "image": "//assets/images/L_11.0/L_11.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 12,
+            "name": "Lenovo V15 Intel Celeron",
+            "firstName": "",
+            "lastName": "",
+            "rating": 4,
+            "price": "Rs. 24,890",
+            "brand": "Acer",
+            "modelName": "Aspire Lite",
+            "screenSize": "15.6 inches",
+            "shade": "Steel grey",
+            "diskSize": "256 GB",
+            "cpuModel": "Core i3 1115G4",
+            "memory": "8 GB",
+            "system": "Windows 11 home",
+            "features": "Metal Body, Thin & Light",
+            "graphics": "Intel UHD Graphics",
+            "category": "laptop",
+            "color": "Black",
+            "image": "//assets/images/L_12.0/L_12.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 13,
+            "name": "Xiaomi Notebook 11th Gen Intel Core i5",
+            "firstName": "",
+            "lastName": "",
+            "rating": 4,
+            "price": "Rs. 49,999",
+            "brand": "Acer",
+            "modelName": "Aspire Lite",
+            "screenSize": "15.6 inches",
+            "shade": "Steel grey",
+            "diskSize": "256 GB",
+            "cpuModel": "Core i3 1115G4",
+            "memory": "8 GB",
+            "system": "Windows 11 home",
+            "features": "Metal Body, Thin & Light",
+            "graphics": "Intel UHD Graphics",
+            "category": "laptop",
+            "color": "Lusterous Grey",
+            "image": "//assets/images/L_13.0/L_13.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 14,
+            "name": "ASUS Vivobook 15, Intel Celeron N4020",
+            "firstName": "",
+            "lastName": "",
+            "rating": 4,
+            "price": "Rs. 30,990",
+            "brand": "Acer",
+            "modelName": "Aspire Lite",
+            "screenSize": "15.6 inches",
+            "shade": "Steel grey",
+            "diskSize": "256 GB",
+            "cpuModel": "Core i3 1115G4",
+            "memory": "8 GB",
+            "system": "Windows 11 home",
+            "features": "Metal Body, Thin & Light",
+            "graphics": "Intel UHD Graphics",
+            "category": "laptop",
+            "color": "Silver",
+            "image": "//assets/images/L_14.0/L_14.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 15,
+            "name": "Acer One 14 AMD Ryzen 5 3500U",
+            "firstName": "",
+            "lastName": "",
+            "rating": 4,
+            "price": "Rs. 29,990",
+            "brand": "Acer",
+            "modelName": "Aspire Lite",
+            "screenSize": "15.6 inches",
+            "shade": "Steel grey",
+            "diskSize": "256 GB",
+            "cpuModel": "Core i3 1115G4",
+            "memory": "8 GB",
+            "system": "Windows 11 home",
+            "features": "Metal Body, Thin & Light",
+            "graphics": "Intel UHD Graphics",
+            "category": "laptop",
+            "color": "Silver",
+            "image": "//assets/images/L_15.0/L_15.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 16,
+            "name": "Mouse",
+            "price": "550",
+            "category": "mouse",
+            "color": "white",
+            "image": "//assets/images/M_1.0/M_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 17,
+            "name": "Mouse",
+            "price": "550",
+            "category": "mouse",
+            "color": "white",
+            "image": "//assets/images/M_2.0/M_2.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 18,
+            "name": "Mouse",
+            "price": "550",
+            "category": "mouse",
+            "color": "white",
+            "image": "//assets/images/M_3.0/M_3.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 19,
+            "name": "Mouse",
+            "price": "550",
+            "category": "mouse",
+            "color": "white",
+            "image": "//assets/images/M_4.0/M_4.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 20,
+            "name": "Mouse",
+            "price": "550",
+            "category": "mouse",
+            "color": "white",
+            "image": "//assets/images/M_5.0/M_5.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 21,
+            "name": "Mouse",
+            "price": "550",
+            "category": "mouse",
+            "color": "white",
+            "image": "//assets/images/M_6.0/M_6.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 22,
+            "name": "Mouse",
+            "price": "550",
+            "category": "mouse",
+            "color": "white",
+            "image": "//assets/images/M_7.0/M_7.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 23,
+            "name": "Mouse",
+            "price": "550",
+            "category": "mouse",
+            "color": "white",
+            "image": "//assets/images/M_8.0/M_8.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 24,
+            "name": "Mouse",
+            "price": "550",
+            "category": "mouse",
+            "color": "white",
+            "image": "//assets/images/M_9.0/M_9.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 25,
+            "name": "Mouse",
+            "price": "550",
+            "category": "mouse",
+            "color": "white",
+            "image": "//assets/images/M_10.0/M_10.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 26,
+            "name": "Mouse",
+            "price": "550",
+            "category": "mouse",
+            "color": "white",
+            "image": "//assets/images/M_11.0/M_11.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 27,
+            "name": "Mouse",
+            "price": "550",
+            "category": "mouse",
+            "color": "white",
+            "image": "//assets/images/M_12.0/M_12.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 28,
+            "name": "Mouse",
+            "price": "550",
+            "category": "mouse",
+            "color": "white",
+            "image": "//assets/images/M_13.0/M_13.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 29,
+            "name": "Mouse",
+            "price": "550",
+            "category": "mouse",
+            "color": "white",
+            "image": "//assets/images/M_14.0/M_14.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 30,
+            "name": "Mouse",
+            "price": "550",
+            "category": "mouse",
+            "color": "white",
+            "image": "//assets/images/M_15.0/M_15.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 31,
+            "name": "Printer",
+            "price": "550",
+            "category": "printer",
+            "color": "white",
+            "image": "//assets/images/P_1.0/P_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 32,
+            "name": "Printer",
+            "price": "550",
+            "category": "printer",
+            "color": "white",
+            "image": "//assets/images/P_2.0/P_2.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 33,
+            "name": "Printer",
+            "price": "550",
+            "category": "printer",
+            "color": "white",
+            "image": "//assets/images/P_3.0/P_3.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 34,
+            "name": "Printer",
+            "price": "550",
+            "category": "printer",
+            "color": "white",
+            "image": "//assets/images/P_4.0/P_4.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 35,
+            "name": "Printer",
+            "price": "550",
+            "category": "printer",
+            "color": "white",
+            "image": "//assets/images/P_5.0/P_5.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 36,
+            "name": "Printer",
+            "price": "550",
+            "category": "printer",
+            "color": "white",
+            "image": "//assets/images/P_6.0/P_6.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 37,
+            "name": "Printer",
+            "price": "550",
+            "category": "printer",
+            "color": "white",
+            "image": "//assets/images/P_7.0/P_7.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 38,
+            "name": "Printer",
+            "price": "550",
+            "category": "printer",
+            "color": "white",
+            "image": "//assets/images/P_8.0/P_8.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 39,
+            "name": "Printer",
+            "price": "550",
+            "category": "printer",
+            "color": "white",
+            "image": "//assets/images/P_9.0/P_9.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 40,
+            "name": "Printer",
+            "price": "550",
+            "category": "printer",
+            "color": "white",
+            "image": "//assets/images/P_10.0/P_10.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 41,
+            "name": "Printer",
+            "price": "550",
+            "category": "printer",
+            "color": "white",
+            "image": "//assets/images/P_11.0/P_11.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 42,
+            "name": "Printer",
+            "price": "550",
+            "category": "printer",
+            "color": "white",
+            "image": "//assets/images/P_12.0/P_12.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 43,
+            "name": "Printer",
+            "price": "550",
+            "category": "printer",
+            "color": "white",
+            "image": "//assets/images/P_13.0/P_13.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 44,
+            "name": "Printer",
+            "price": "550",
+            "category": "printer",
+            "color": "white",
+            "image": "//assets/images/P_14.0/P_14.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 45,
+            "name": "Printer",
+            "price": "550",
+            "category": "printer",
+            "color": "white",
+            "image": "//assets/images/P_15.0/P_15.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 46,
+            "name": "Monitor",
+            "price": "550",
+            "category": "monitor, tv",
+            "color": "white",
+            "image": "//assets/images/MO_1.0/MO_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 47,
+            "name": "Monitor",
+            "price": "550",
+            "category": "monitor, tv",
+            "color": "white",
+            "image": "//assets/images/MO_2.0/MO_2.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 48,
+            "name": "Monitor",
+            "price": "550",
+            "category": "monitor, tv",
+            "color": "white",
+            "image": "//assets/images/MO_3.0/MO_3.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 49,
+            "name": "Monitor",
+            "price": "550",
+            "category": "monitor, tv",
+            "color": "white",
+            "image": "//assets/images/MO_4.0/MO_4.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 50,
+            "name": "Monitor",
+            "price": "550",
+            "category": "monitor, tv",
+            "color": "white",
+            "image": "//assets/images/MO_5.0/MO_5.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 51,
+            "name": "Monitor",
+            "price": "550",
+            "category": "monitor, tv",
+            "color": "white",
+            "image": "//assets/images/MO_6.0/MO_6.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 52,
+            "name": "Monitor",
+            "price": "550",
+            "category": "monitor, tv",
+            "color": "white",
+            "image": "//assets/images/MO_7.0/MO_7.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 53,
+            "name": "Monitor",
+            "price": "550",
+            "category": "monitor, tv",
+            "color": "white",
+            "image": "//assets/images/MO_8.0/MO_8.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 54,
+            "name": "Monitor",
+            "price": "550",
+            "category": "monitor, tv",
+            "color": "white",
+            "image": "//assets/images/MO_9.0/MO_9.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 55,
+            "name": "Monitor",
+            "price": "550",
+            "category": "monitor, tv",
+            "color": "white",
+            "image": "//assets/images/MO_10.0/MO_10.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 56,
+            "name": "Monitor",
+            "price": "550",
+            "category": "monitor, tv",
+            "color": "white",
+            "image": "//assets/images/MO_11.0/MO_11.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 57,
+            "name": "Monitor",
+            "price": "550",
+            "category": "monitor, tv",
+            "color": "white",
+            "image": "//assets/images/MO_12.0/MO_12.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 58,
+            "name": "Monitor",
+            "price": "550",
+            "category": "monitor, tv",
+            "color": "white",
+            "image": "//assets/images/MO_13.0/MO_13.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 59,
+            "name": "Monitor",
+            "price": "550",
+            "category": "monitor, tv",
+            "color": "white",
+            "image": "//assets/images/MO_14.0/MO_14.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 60,
+            "name": "Monitor",
+            "price": "550",
+            "category": "monitor, tv",
+            "color": "white",
+            "image": "//assets/images/MO_15.0/MO_15.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 61,
+            "name": "Air Conditioner",
+            "price": "550",
+            "category": "AC, ac",
+            "color": "white",
+            "image": "/assets/images/A_1.0/A_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 62,
+            "name": "Air Conditioner",
+            "price": "550",
+            "category": "AC, ac",
+            "color": "white",
+            "image": "/assets/images/A_2.0/A_2.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 63,
+            "name": "Air Conditioner",
+            "price": "550",
+            "category": "AC, ac",
+            "color": "white",
+            "image": "/assets/images/A_3.0/A_3.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 64,
+            "name": "Air Conditioner",
+            "price": "550",
+            "category": "AC, ac",
+            "color": "white",
+            "image": "/assets/images/A_4.0/A_4.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 65,
+            "name": "Air Conditioner",
+            "price": "550",
+            "category": "AC, ac",
+            "color": "white",
+            "image": "/assets/images/A_5.0/A_5.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 66,
+            "name": "Air Conditioner",
+            "price": "550",
+            "category": "AC, ac",
+            "color": "white",
+            "image": "/assets/images/A_6.0/A_6.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 67,
+            "name": "Air Conditioner",
+            "price": "550",
+            "category": "AC, ac",
+            "color": "white",
+            "image": "/assets/images/A_7.0/A_7.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 68,
+            "name": "Air Conditioner",
+            "price": "550",
+            "category": "AC, ac",
+            "color": "white",
+            "image": "/assets/images/A_8.0/A_8.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 69,
+            "name": "Air Conditioner",
+            "price": "550",
+            "category": "AC, ac",
+            "color": "white",
+            "image": "/assets/images/A_9.0/A_9.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 70,
+            "name": "Air Conditioner",
+            "price": "550",
+            "category": "AC, ac",
+            "color": "white",
+            "image": "/assets/images/A_10.0/A_10.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 71,
+            "name": "Air Conditioner",
+            "price": "550",
+            "category": "AC, ac",
+            "color": "white",
+            "image": "/assets/images/A_11.0/A_11.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 72,
+            "name": "Air Conditioner",
+            "price": "550",
+            "category": "AC, ac",
+            "color": "white",
+            "image": "/assets/images/A_12.0/A_12.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 73,
+            "name": "Air Conditioner",
+            "price": "550",
+            "category": "AC, ac",
+            "color": "white",
+            "image": "/assets/images/A_13.0/A_13.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 74,
+            "name": "Air Conditioner",
+            "price": "550",
+            "category": "AC, ac",
+            "color": "white",
+            "image": "/assets/images/A_14.0/A_14.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 75,
+            "name": "Air Conditioner",
+            "price": "550",
+            "category": "AC, ac",
+            "color": "white",
+            "image": "/assets/images/A_15.0/A_15.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 76,
+            "name": "Refridgerator",
+            "price": "550",
+            "category": "Refridgerator, refridgerator, fridge",
+            "color": "white",
+            "image": "//assets/images/S_1.0/S_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 77,
+            "name": "Refridgerator",
+            "price": "550",
+            "category": "Refridgerator, refridgerator, fridge",
+            "color": "white",
+            "image": "//assets/images/S_2.0/S_2.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 78,
+            "name": "Refridgerator",
+            "price": "550",
+            "category": "Refridgerator, refridgerator, fridge",
+            "color": "white",
+            "image": "//assets/images/S_3.0/S_3.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 79,
+            "name": "Refridgerator",
+            "price": "550",
+            "category": "Refridgerator, refridgerator, fridge",
+            "color": "white",
+            "image": "//assets/images/S_4.0/S_4.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 80,
+            "name": "Refridgerator",
+            "price": "550",
+            "category": "Refridgerator, refridgerator, fridge",
+            "color": "white",
+            "image": "//assets/images/S_5.0/S_5.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 81,
+            "name": "Refridgerator",
+            "price": "550",
+            "category": "Refridgerator, refridgerator, fridge",
+            "color": "white",
+            "image": "//assets/images/S_6.0/S_6.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 82,
+            "name": "Refridgerator",
+            "price": "550",
+            "category": "Refridgerator, refridgerator, fridge",
+            "color": "white",
+            "image": "//assets/images/S_7.0/S_7.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 83,
+            "name": "Refridgerator",
+            "price": "550",
+            "category": "Refridgerator, refridgerator, fridge",
+            "color": "white",
+            "image": "//assets/images/S_8.0/S_8.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 84,
+            "name": "Refridgerator",
+            "price": "550",
+            "category": "Refridgerator, refridgerator, fridge",
+            "color": "white",
+            "image": "//assets/images/S_9.0/S_9.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 85,
+            "name": "Refridgerator",
+            "price": "550",
+            "category": "Refridgerator, refridgerator, fridge",
+            "color": "white",
+            "image": "//assets/images/S_10.0/S_10.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 86,
+            "name": "Refridgerator",
+            "price": "550",
+            "category": "Refridgerator, refridgerator, fridge",
+            "color": "white",
+            "image": "//assets/images/S_11.0/S_11.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 87,
+            "name": "Refridgerator",
+            "price": "550",
+            "category": "Refridgerator, refridgerator, fridge",
+            "color": "white",
+            "image": "//assets/images/S_12.0/S_12.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 88,
+            "name": "Refridgerator",
+            "price": "550",
+            "category": "Refridgerator, refridgerator, fridge",
+            "color": "white",
+            "image": "//assets/images/S_13.0/S_13.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 89,
+            "name": "Refridgerator",
+            "price": "550",
+            "category": "Refridgerator, refridgerator, fridge",
+            "color": "white",
+            "image": "//assets/images/S_14.0/S_14.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 90,
+            "name": "Refridgerator",
+            "price": "550",
+            "category": "Refridgerator, refridgerator, fridge",
+            "color": "white",
+            "image": "//assets/images/S_15.0/S_15.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 91,
+            "name": "Television",
+            "price": "550",
+            "category": "Television, television, tv, monitor",
+            "color": "white",
+            "image": "/assets/images/W-M_1.0/W-M_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 92,
+            "name": "Television",
+            "price": "550",
+            "category": "Television, television, tv, monitor",
+            "color": "white",
+            "image": "/assets/images/W-M_1.0/W-M_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 93,
+            "name": "Television",
+            "price": "550",
+            "category": "Television, television, tv, monitor",
+            "color": "white",
+            "image": "/assets/images/W-M_1.0/W-M_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 94,
+            "name": "Television",
+            "price": "550",
+            "category": "Television, television, tv, monitor",
+            "color": "white",
+            "image": "/assets/images/W-M_1.0/W-M_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 95,
+            "name": "Television",
+            "price": "550",
+            "category": "Television, television, tv, monitor",
+            "color": "white",
+            "image": "/assets/images/W-M_1.0/W-M_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 96,
+            "name": "Television",
+            "price": "550",
+            "category": "Television, television, tv, monitor",
+            "color": "white",
+            "image": "/assets/images/W-M_1.0/W-M_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 97,
+            "name": "Television",
+            "price": "550",
+            "category": "Television, television, tv, monitor",
+            "color": "white",
+            "image": "/assets/images/W-M_1.0/W-M_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 98,
+            "name": "Television",
+            "price": "550",
+            "category": "Television, television, tv, monitor",
+            "color": "white",
+            "image": "/assets/images/W-M_1.0/W-M_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 99,
+            "name": "Television",
+            "price": "550",
+            "category": "Television, television, tv, monitor",
+            "color": "white",
+            "image": "/assets/images/W-M_1.0/W-M_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 100,
+            "name": "Television",
+            "price": "550",
+            "category": "Television, television, tv, monitor",
+            "color": "white",
+            "image": "/assets/images/W-M_1.0/W-M_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 101,
+            "name": "Television",
+            "price": "550",
+            "category": "Television, television, tv, monitor",
+            "color": "white",
+            "image": "/assets/images/W-M_1.0/W-M_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 102,
+            "name": "Television",
+            "price": "550",
+            "category": "Television, television, tv, monitor",
+            "color": "white",
+            "image": "/assets/images/W-M_1.0/W-M_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 103,
+            "name": "Television",
+            "price": "550",
+            "category": "Television, television, tv, monitor",
+            "color": "white",
+            "image": "/assets/images/W-M_1.0/W-M_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 104,
+            "name": "Television",
+            "price": "550",
+            "category": "Television, television, tv, monitor",
+            "color": "white",
+            "image": "/assets/images/W-M_1.0/W-M_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
+        {
+            "id": 105,
+            "name": "Television",
+            "price": "550",
+            "category": "Television, television, tv, monitor",
+            "color": "white",
+            "image": "/assets/images/W-M_1.0/W-M_1.0.jpg",
+            "description": "This is a Samsung product"
+        },
         {
             "id": 106,
             "name": "Washing Machine",

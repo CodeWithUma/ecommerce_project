@@ -10,9 +10,9 @@
                 <!-- <li class="nav-item">
                     <a class="nav-link disabled bi bi-badge-ad" aria-disabled="true" routerLink=""> Seller</a>
                 </li> -->
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link active bi bi-house" aria-current="page" routerLink=""> Home</a>
-                </li>
+                </li> -->
                 <!-- <li class="nav-item">
                     <a class="nav-link bi bi-bag-check" routerLink=""> Orders</a>
                 </li> -->
@@ -30,12 +30,38 @@
                     (click)="openModal2(content2)"> SignUp</button>
             </div> -->
 
-            <!-- <form class="d-flex flex-row" role="search">
-                <input style="color: white;" class="form-control me-2" type="search" list="datalistOptions" placeholder="Search"
-                    aria-label="Search" #filter>
-                <button style="color: white;" class="btn btn-outline-success bi bi-search" type="submit"></button>
-            </form>             -->
+
+
+
+
         </div>
+    </div>
+</nav>
+
+<!-- <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid justify-content-center">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" #filter>
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </div>
+</nav> -->
+
+<!-- SEARCH FILTER -->
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid justify-content-center">
+        <form *ngIf="menuType!=='seller'" class="d-flex" role="search">
+            <input class="form-control me-2" type="text" list="datalistOptions" style="text-decoration: none;"
+                placeholder="Search" aria-label="Search" #searchInput (keyup)="searchProduct($event)"
+                (blur)="hideSearch()">
+            <button class="btn btn-outline-success bi bi-search" type="submit"
+                (click)="submitSearch(searchInput.value)"></button>
+            <ul class="suggested-search" style="list-style: none;" *ngIf="searchResult">
+                <li *ngFor="let item of searchResult" style="list-style: none;" >
+                    <a (mousedown)="redirectToDetails(item.id)">{{item.name}}</a>
+                </li>
+            </ul>
+        </form>
     </div>
 </nav>
 
@@ -94,8 +120,8 @@
             </div>
             <div class="form-group mb-2">
                 <label for="validationCustom05" class="form-label">Mobile No.</label>
-                <input type="text" class="form-control" [(ngModel)]="mobileNumber" id="validationCustom05" id="mobile-number" name="mobile-number" pattern="[0-9]*"
-                    [maxLength]="10" required>
+                <input type="text" class="form-control" [(ngModel)]="mobileNumber" id="validationCustom05"
+                    id="mobile-number" name="mobile-number" pattern="[0-9]*" [maxLength]="10" required>
             </div>
             <div class="form-group mb-2">
                 <label for="exampleInputEmail1">Email address</label>
@@ -111,41 +137,42 @@
             </div>
             <button type="submit" class="btn btn-primary">Create Account</button>
         </form>
-    </div>    
+    </div>
 </ng-template>
 
 <ng-template #content1>
     <!-- Login Modal -->
 
-<div class="modal-header">
-    <h5 class="modal-title" id="exampleModalLabel">Login to E-Comm</h5>
-</div>
-<div class="modal-body">
-    <form>
-        <div class="form-group mb-2">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-        </div>
-        <div class="form-group mb-2">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" required>
-        </div>
-        <div class="form-group form-check mb-3">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-            <label class="form-check-label" for="exampleCheck1">Agree to <a [routerLink]="['privacy-notice']">Privacy
-                    Policy</a>
-            </label>
-            <div class="invalid-feedback">
-                You must agree before submitting.
+    <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login to E-Comm</h5>
+    </div>
+    <div class="modal-body">
+        <form>
+            <div class="form-group mb-2">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
             </div>
-        </div>
-        <div class="row justify-content-center">
-            <button type="submit" class="btn btn-primary mb-4">Login</button><br>
-            <p><span>New to Ecomm?</span></p>
-            <!-- <button type="submit" class="btn btn-warning" [routerLink]="['sign-up']">Create an Account</button> -->
-            <button type="submit" class="btn btn-warning" [routerLink]="['sign-up']">Create an Account</button>
-        </div>
-    </form>
-</div>
+            <div class="form-group mb-2">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" required>
+            </div>
+            <div class="form-group form-check mb-3">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                <label class="form-check-label" for="exampleCheck1">Agree to <a
+                        [routerLink]="['privacy-notice']">Privacy
+                        Policy</a>
+                </label>
+                <div class="invalid-feedback">
+                    You must agree before submitting.
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <button type="submit" class="btn btn-primary mb-4">Login</button><br>
+                <p><span>New to Ecomm?</span></p>
+                <!-- <button type="submit" class="btn btn-warning" [routerLink]="['sign-up']">Create an Account</button> -->
+                <button type="submit" class="btn btn-warning" [routerLink]="['sign-up']">Create an Account</button>
+            </div>
+        </form>
+    </div>
 
 </ng-template>

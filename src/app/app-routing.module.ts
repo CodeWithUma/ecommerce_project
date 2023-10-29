@@ -4,28 +4,28 @@ import { HomeComponent } from './home/home.component';
 import { PrivacyNoticeComponent } from './privacy-notice/privacy-notice.component';
 import { ConditionsUseSellComponent } from './conditions-use-sell/conditions-use-sell.component';
 import { InterestBasedAddsComponent } from './interest-based-adds/interest-based-adds.component';
-import { RefridgeratorComponent } from './refridgerator/refridgerator.component';
-import { LaptopComponent } from './laptop/laptop.component';
-import { MouseComponent } from './mouse/mouse.component';
-import { PrinterComponent } from './printer/printer.component';
-import { MonitorComponent } from './monitor/monitor.component';
-import { AirConditionerComponent } from './air-conditioner/air-conditioner.component';
-import { TelevisionComponent } from './television/television.component';
-import { WashingMachineComponent } from './washing-machine/washing-machine.component';
-import { SmartphonesComponent } from './smartphones/smartphones.component';
-import { SoftToysComponent } from './soft-toys/soft-toys.component';
-import { OutdoorSportsComponent } from './outdoor-sports/outdoor-sports.component';
-import { SkinCareComponent } from './skin-care/skin-care.component';
-import { MakeupComponent } from './makeup/makeup.component';
-import { WFootwearComponent } from './w-footwear/w-footwear.component';
-import { WatchesComponent } from './watches/watches.component';
-import { ClothingComponent } from './clothing/clothing.component';
-import { FootwearComponent } from './footwear/footwear.component';
-import { BagsWalletsComponent } from './bags-wallets/bags-wallets.component';
-import { WWatchesComponent } from './w-watches/w-watches.component';
-import { WClothingComponent } from './w-clothing/w-clothing.component';
-import { FootwearHandbagsComponent } from './footwear-handbags/footwear-handbags.component';
-import { FashionJwelleryComponent } from './fashion-jwellery/fashion-jwellery.component';
+import { RefridgeratorComponent } from './products/refridgerator/refridgerator.component';
+import { LaptopComponent } from './products/laptop/laptop.component';
+import { MouseComponent } from './products/mouse/mouse.component';
+import { PrinterComponent } from './products/printer/printer.component';
+import { MonitorComponent } from './products/monitor/monitor.component';
+import { AirConditionerComponent } from './products/air-conditioner/air-conditioner.component';
+import { TelevisionComponent } from './products/television/television.component';
+import { WashingMachineComponent } from './products/washing-machine/washing-machine.component';
+import { SmartphonesComponent } from './products/smartphones/smartphones.component';
+import { SoftToysComponent } from './products/soft-toys/soft-toys.component';
+import { OutdoorSportsComponent } from './products/outdoor-sports/outdoor-sports.component';
+import { SkinCareComponent } from './products/skin-care/skin-care.component';
+import { MakeupComponent } from './products/makeup/makeup.component';
+import { WFootwearComponent } from './products/w-footwear/w-footwear.component';
+import { WatchesComponent } from './products/watches/watches.component';
+import { ClothingComponent } from './products/clothing/clothing.component';
+import { FootwearComponent } from './products/footwear/footwear.component';
+import { BagsWalletsComponent } from './products/bags-wallets/bags-wallets.component';
+import { WWatchesComponent } from './products/w-watches/w-watches.component';
+import { WClothingComponent } from './products/w-clothing/w-clothing.component';
+import { FootwearHandbagsComponent } from './products/footwear-handbags/footwear-handbags.component';
+import { FashionJwelleryComponent } from './products/fashion-jwellery/fashion-jwellery.component';
 import { DetailsLaptopComponent } from './details/details-laptop/details-laptop.component';
 import { DetailsMouseComponent } from './details/details-mouse/details-mouse.component';
 import { DetailsPrinterComponent } from './details/details-printer/details-printer.component';
@@ -34,6 +34,8 @@ import { DetailsAcComponent } from './details/details-ac/details-ac.component';
 import { DetailsRefridgeratorComponent } from './details/details-refridgerator/details-refridgerator.component';
 import { DetailsTvComponent } from './details/details-tv/details-tv.component';
 import { DetailsWashingMachineComponent } from './details/details-washing-machine/details-washing-machine.component';
+import { SearchComponent } from './features/search/search.component';
+import { CartComponent } from './features/cart/cart.component';
 
 const routes: Routes = [
   {
@@ -172,6 +174,14 @@ const routes: Routes = [
     component: DetailsWashingMachineComponent,
     path: 'details_wm/:productId',
   },
+  {
+    component: SearchComponent,
+    path: 'search/:query'
+  },
+  {
+    component: CartComponent,
+    path: 'cart-page'
+  }
 ];
 
 @NgModule({
