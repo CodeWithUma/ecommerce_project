@@ -7,7 +7,6 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { CarouselModule } from 'primeng/carousel';
 import { FooterComponent } from './footer/footer.component';
-import { PrivacyNoticeComponent } from './privacy-notice/privacy-notice.component';
 import { ConditionsUseSellComponent } from './conditions-use-sell/conditions-use-sell.component';
 import { InterestBasedAddsComponent } from './interest-based-adds/interest-based-adds.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
@@ -60,6 +59,8 @@ import { DetailsTvComponent } from './details/details-tv/details-tv.component';
 import { DetailsWashingMachineComponent } from './details/details-washing-machine/details-washing-machine.component';
 import { SearchComponent } from './features/search/search.component';
 import { CartComponent } from './features/cart/cart.component';
+import { PrivacyNoticeComponent } from './privacy-notice/privacy-notice.component';
+import { UserAuthComponent } from './features/user-auth/user-auth.component';
 
 @NgModule({
   declarations: [
@@ -67,7 +68,6 @@ import { CartComponent } from './features/cart/cart.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    PrivacyNoticeComponent,
     ConditionsUseSellComponent,
     InterestBasedAddsComponent,
     RefridgeratorComponent,
@@ -102,7 +102,9 @@ import { CartComponent } from './features/cart/cart.component';
     DetailsTvComponent,
     DetailsWashingMachineComponent,
     SearchComponent,
-    CartComponent
+    CartComponent,
+    PrivacyNoticeComponent,
+    UserAuthComponent
   ],
   imports: [
     HttpClientModule,
