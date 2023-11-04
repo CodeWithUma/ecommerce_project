@@ -68,6 +68,7 @@ const routes: Routes = [
   {
     component: LaptopComponent,
     path: 'laptop',
+    canActivate: [AuthGuard]
   },
   {
     component: MouseComponent,
