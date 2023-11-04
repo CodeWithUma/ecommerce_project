@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { PrivacyNoticeComponent } from './privacy-notice/privacy-notice.component';
 import { ConditionsUseSellComponent } from './conditions-use-sell/conditions-use-sell.component';
 import { InterestBasedAddsComponent } from './interest-based-adds/interest-based-adds.component';
 import { RefridgeratorComponent } from './products/refridgerator/refridgerator.component';
@@ -36,8 +35,16 @@ import { DetailsTvComponent } from './details/details-tv/details-tv.component';
 import { DetailsWashingMachineComponent } from './details/details-washing-machine/details-washing-machine.component';
 import { SearchComponent } from './features/search/search.component';
 import { CartComponent } from './features/cart/cart.component';
+import { PrivacyNoticeComponent } from './privacy-notice/privacy-notice.component';
+import { UserAuthComponent } from './features/user-auth/user-auth.component';
+import { AuthGuard } from './auth.guard';
 
 const routes: Routes = [
+  {
+    path: '',
+    redirectTo: 'login',
+    pathMatch: 'full',
+  },
   {
     component: HomeComponent,
     path: '',
@@ -181,11 +188,16 @@ const routes: Routes = [
   {
     component: CartComponent,
     path: 'cart-page'
+  },
+  {
+    component:UserAuthComponent,
+    path:'user-auth'
   }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  providers: [AuthGuard]
 })
 export class AppRoutingModule { }

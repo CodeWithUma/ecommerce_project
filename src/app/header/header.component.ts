@@ -1,8 +1,6 @@
-import { Component, inject } from '@angular/core';
-import { BsModalRef } from 'ngx-bootstrap/modal';
+import { Component, OnInit, inject } from '@angular/core';
 import { product, productName } from '../data-type';
 import { ProductService } from '../services/product.service';
-import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { Router } from '@angular/router';
 
 @Component({
@@ -10,25 +8,44 @@ import { Router } from '@angular/router';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent {
-  constructor(private modalService: NgbModal, private product:ProductService, private route: Router) {}
-  menuType: string = 'default';
-  searchResult:undefined|product[];
-  housingLocationList: productName[] = [];
-  housingService: ProductService = inject(ProductService);
-  filteredLocationList: productName[] = [];
-  mobileNumber: string = '';
+export class HeaderComponent implements OnInit {
+  constructor(private product:ProductService, private route: Router) {}
   
-  bsModalRef: BsModalRef | any;
+  menuType: string = '';
+  sellerName: string = '';
+  userName: string = '';
+  searchResult: undefined | product[];
+  cartItems = 0;
+  mobileNumber: number | undefined;
 
-  openModal1(content1: any) {
-    this.modalService.open(content1,{centered: true});
+  ngOnInit(): void {
+    this.route.events.subscribe((val: any) => {
+      if (val.url) {
+        if (localStorage.getItem('seller') && val.url.includes('seller')) {
+          let sellerStore = localStorage.getItem('seller');
+          let sellerData = sellerStore && JSON.parse(sellerStore)[0];
+          this.sellerName = sellerData.name;
+          this.menuType = 'seller';
+        } else if (localStorage.getItem('user')) {
+          let userStore = localStorage.getItem('user');
+          let userData = userStore && JSON.parse(userStore);
+          this.userName = userData.name;
+          this.menuType = 'user';
+          this.product.getCartList(userData.id);
+        } else {
+          this.menuType = 'default';
+        }
+      }
+    });
+    let cartData = localStorage.getItem('localCart');
+    if (cartData) {
+      this.cartItems = JSON.parse(cartData).length;
+    }
+    this.product.cartData.subscribe((items) => {
+      this.cartItems = items.length;
+    });
   }
   
-  openModal2(content2: any) {
-    this.modalService.open(content2,{centered: true});
-  }
-
   searchProduct(query:KeyboardEvent){
     if(query){
       const element = query.target as HTMLInputElement;
@@ -51,5 +68,11 @@ export class HeaderComponent {
 
   redirectToDetails(id:number){
     this.route.navigate(['/details/'+id])
+  }
+
+  userLogout() {
+    localStorage.removeItem('user');
+    this.route.navigate(['/']);
+    this.product.cartData.emit([]);
   }
 }
