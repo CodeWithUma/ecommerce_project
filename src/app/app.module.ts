@@ -116,16 +116,6 @@ import { UserAuthComponent } from './features/user-auth/user-auth.component';
     ModalModule.forRoot(),
     RouterModule,
     NgbRatingModule,
-    provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideAnalytics(() => getAnalytics()),
-    provideAuth(() => getAuth()),
-    provideDatabase(() => getDatabase()),
-    provideFirestore(() => getFirestore()),
-    provideFunctions(() => getFunctions()),
-    provideMessaging(() => getMessaging()),
-    providePerformance(() => getPerformance()),
-    provideRemoteConfig(() => getRemoteConfig()),
-    provideStorage(() => getStorage()),
     NgbModule
   ],
   providers: [

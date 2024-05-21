@@ -13,8 +13,13 @@ export class MouseComponent implements OnInit{
   constructor(private product: ProductService) { }
 
   ngOnInit() {
-    this.product.mouseProductList().subscribe((data)=>{
-      this.mouseProductList=data;
-    })
+    this.product.mouseProductList().subscribe(
+      (data)=>{
+        this.mouseProductList=data;
+      },
+      (error) => {
+        console.error('Error fetching mouse product list:', error);
+      }
+    );
   }
 }
