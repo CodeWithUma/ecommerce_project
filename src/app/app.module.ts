@@ -12,7 +12,7 @@ import { InterestBasedAddsComponent } from './interest-based-adds/interest-based
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RefridgeratorComponent } from './products/refridgerator/refridgerator.component';
-import { HttpClientModule } from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { LaptopComponent } from './products/laptop/laptop.component';
 import { MouseComponent } from './products/mouse/mouse.component';
 import { PrinterComponent } from './products/printer/printer.component';
@@ -62,65 +62,59 @@ import { CartComponent } from './features/cart/cart.component';
 import { PrivacyNoticeComponent } from './privacy-notice/privacy-notice.component';
 import { UserAuthComponent } from './features/user-auth/user-auth.component';
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    HeaderComponent,
-    FooterComponent,
-    ConditionsUseSellComponent,
-    InterestBasedAddsComponent,
-    RefridgeratorComponent,
-    LaptopComponent,
-    MouseComponent,
-    PrinterComponent,
-    MonitorComponent,
-    AirConditionerComponent,
-    TelevisionComponent,
-    WashingMachineComponent,
-    SmartphonesComponent,
-    SoftToysComponent,
-    OutdoorSportsComponent,
-    SkinCareComponent,
-    MakeupComponent,
-    WFootwearComponent,
-    WatchesComponent,
-    ClothingComponent,
-    FootwearComponent,
-    BagsWalletsComponent,
-    WWatchesComponent,
-    WClothingComponent,
-    FootwearHandbagsComponent,
-    FashionJwelleryComponent,
-    ProductLocationComponent,
-    DetailsLaptopComponent,
-    DetailsMouseComponent,
-    DetailsPrinterComponent,
-    DetailsMonitorComponent,
-    DetailsAcComponent,
-    DetailsRefridgeratorComponent,
-    DetailsTvComponent,
-    DetailsWashingMachineComponent,
-    SearchComponent,
-    CartComponent,
-    PrivacyNoticeComponent,
-    UserAuthComponent
-  ],
-  imports: [
-    HttpClientModule,
-    BrowserModule,
-    AppRoutingModule,
-    CarouselModule,
-    FormsModule,
-    ReactiveFormsModule,
-    ModalModule.forRoot(),
-    RouterModule,
-    NgbRatingModule,
-    NgbModule
-  ],
-  providers: [
-    ScreenTrackingService,UserTrackingService
-  ],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+        AppComponent,
+        HomeComponent,
+        HeaderComponent,
+        FooterComponent,
+        ConditionsUseSellComponent,
+        InterestBasedAddsComponent,
+        RefridgeratorComponent,
+        LaptopComponent,
+        MouseComponent,
+        PrinterComponent,
+        MonitorComponent,
+        AirConditionerComponent,
+        TelevisionComponent,
+        WashingMachineComponent,
+        SmartphonesComponent,
+        SoftToysComponent,
+        OutdoorSportsComponent,
+        SkinCareComponent,
+        MakeupComponent,
+        WFootwearComponent,
+        WatchesComponent,
+        ClothingComponent,
+        FootwearComponent,
+        BagsWalletsComponent,
+        WWatchesComponent,
+        WClothingComponent,
+        FootwearHandbagsComponent,
+        FashionJwelleryComponent,
+        ProductLocationComponent,
+        DetailsLaptopComponent,
+        DetailsMouseComponent,
+        DetailsPrinterComponent,
+        DetailsMonitorComponent,
+        DetailsAcComponent,
+        DetailsRefridgeratorComponent,
+        DetailsTvComponent,
+        DetailsWashingMachineComponent,
+        SearchComponent,
+        CartComponent,
+        PrivacyNoticeComponent,
+        UserAuthComponent
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule,
+        AppRoutingModule,
+        CarouselModule,
+        FormsModule,
+        ReactiveFormsModule,
+        ModalModule.forRoot(),
+        RouterModule,
+        NgbRatingModule,
+        NgbModule], providers: [
+        ScreenTrackingService, UserTrackingService,
+        provideHttpClient(withInterceptorsFromDi())
+    ] })
 export class AppModule { }
